@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace MvcMovie.Models;
 
@@ -11,3 +13,5 @@ public class Movie
     public string? Genre { get; set; }
     public decimal Price { get; set; }
 }
+// GET: Movies/Edit/5
+
